@@ -33,12 +33,53 @@ h1 {
 }
 
 .summary {
-    color: #5d5c61;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 4em;
+    margin-bottom: 6em;
+    display: flex;
+    flex-direction: row;
+}
+
+.summary .text {
+    flex: 70%;
+}
+
+.summary .image {
+    flex: 30%;
+}
+
+.image img {
+    margin: 10% 25%;
+    border: 6px solid #557195;
+    border-radius: 50%;
+}
+
+.summary h1 {
+    color: #b1a296;
+}
+
+.summary p {
+    color: #b1a296;
 }
 
 .social-icons i {
-    margin: 0.5em;
+    margin: 0.3em;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #b1a296;
+}
+
+.timeline {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4em;
+    padding-bottom: 6em;
+    background-color: #5d5c61;
+}
+
+.timeline h1 {
+    color: white;
 }
